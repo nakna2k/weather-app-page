@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+body{
+    font-family: 'Lato';
+    background-color: #efefef;
+}
+
+.searchForm{
+    margin-left: 80px;
+    border-radius: 0px 0px 200px 200px;
+    width: 80%;
+    background-color: rgb(125, 125, 225);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./header-banner-sky-cloud.jpg");
+    background-size: cover;
+}
+.titleBox{
+    padding-bottom: 10px;
+    font-size: 36px;
+    font-weight: 700    ;
+    color: rgb(38, 15, 15)
+}
+.searchForm > button{
+    margin: 10px;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 20px;
+    box-shadow: 0px 5px 8px 0.5px aqua;
+    background-color: transparent;
+}
+.searchForm > input{
+    background-color: #efefef;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.mainWrapper{
+    border-radius: 40px 40px 40px 40px;
+    border-top: 0px;
+    margin-top: 40px;
+    width: 60%;
+    display: flex;
+    margin-left: 210px;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+
+    background-image: url("./header-banner-sky-cloud.jpg");
+}
+#WeatherBox{
+    line-height: 50px;
+    font-size: 24px;
+    text-align: left;
+    border-radius: 0px 0px 25px 25px;
+
+}
+#WeatherBox > h{
+    color: red;
+}
+.zdj{
+    height: 70px;
+    margin-left: 10px;
+    transform: translateY(20px)
+    
+    
+};
+
+#ErrorMsg{
+    text-align: center;
+    font-size: 46px;
+    color: red;
+    padding: 40px;
+
+}
+
